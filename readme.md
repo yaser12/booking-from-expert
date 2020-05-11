@@ -16,5 +16,5 @@
 #### 8- 12 AM is midnight 
 #### 9-12PM is midday 
 
-#### 10-I user MailTrap for expert registeration and for user confiming of his booking 
+#### 10-I use MailTrap for expert registeration and for user confiming of his booking 
 #### 11-there is testing DB file :booking_from_expert.sql
