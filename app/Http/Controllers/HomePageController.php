@@ -75,7 +75,7 @@ class HomePageController extends Controller
         try{
             return     DB::transaction(function () use ($request,$id)
             {
-                $user=User::where('id',$id)->first();
+                $user=User::where('id',$id)->first();// expert user
                 $duration=$request->duration;
                 $start_slot_id=$request->start_slot_id;
                 $duration_slot=$request->duration_slot;
@@ -110,7 +110,12 @@ class HomePageController extends Controller
                        if( $durationTemp== $duration)break;
                     $durationTemp++;
                 }
+                $user = [
+                    'name' => 'from expert '.$user->name,
+                    'info' => $duration_slot
+                ];
 
+                \Mail::to( $guest->email)->send(new \App\Mail\NewBookingMail($user));
 
         $arr = Array('expert' => 'booked !'  );
         return $arr;

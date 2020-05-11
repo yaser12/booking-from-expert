@@ -10,7 +10,18 @@ Route::get('/book/{id}',  'HomePageController@book'   );
 Route::get('/booknow/{id}',  'HomePageController@booknow'   );
 Route::get('/get_appointments/{id}',  'HomePageController@get_appointments'   );
 Auth::routes([ 'verify' => true ]);
+Route::get('testbooking', function () {
 
+    $user = [
+        'name' => 'Mahedi Hasan',
+        'info' => 'Laravel Developer'
+    ];
+
+    \Mail::to('mail@ddddd.org')->send(new \App\Mail\NewBookingMail($user));
+
+    dd("success");
+
+});
 Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');
 Route::get('/welcome', 'HomeController@welcome')->name('welcome')->middleware('verified');
 
