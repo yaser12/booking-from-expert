@@ -3,7 +3,7 @@
 
  
 ### some noitce
-#### 1- in Database all Times will save in GMT .
+#### 1- in Database all Times will be saved in GMT .
 #### 2- for user : system will send time in GMT . but befor user show this time: js function will convert it on fly to Time in user local host timezone(I make many js function to make this convertion)
 #### 3-when experts  register : he/she enter working hour as in her/his timezone... put in database will be converted to GMT and then will be saved.
 #### 4- slots generated automaticlly from working hours of Expert
