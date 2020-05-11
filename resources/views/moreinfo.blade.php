@@ -25,12 +25,11 @@
                                 {   // 9 pm +7 = 4 AM
                                     // 9 Am +7 = 4PM
                                     //12 pm +1=1 PM
-
+                          // alert(hours+ ' '+Am_or_PM+' add '+numberHourstoAdd);
                                     if(hours==12)
                                     {
 
-                                        if(Am_or_PM=='AM')Am_or_PM='PM';
-                                        else if(Am_or_PM=='PM')Am_or_PM='AM';
+
 
 
                                         return [numberHourstoAdd,Am_or_PM];
