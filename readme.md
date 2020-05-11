@@ -9,7 +9,7 @@
 #### 4- slots generated automaticlly from working hours of Expert
 #### 5- to help  users to choose an appointment to start from: The beginning of the appointment has been made so that it begins every quarter of an hour along the working hours
 
-#### 6- if slots in same day will be disabled(your can show it but you can not select it)
+#### 6- if slots in same day will be disabled(you can show it but you can not select it)
 #### 7-if user select duration 1Hour: and slot for example in 8 o'clock in same day  is booked up, then user will not be able to book slot in  8 o'clock  and user coud not book any slot befor an hour before it, so user will see 4 slots booked up: 7 , 7.15, 7 .30, 7.45  and 8
 
 
