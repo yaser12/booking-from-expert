@@ -13,8 +13,8 @@
 #### 7-if user select duration 1Hour: and there is a slot for example in 8 o'clock in same day that is already booked up from another user, then the user will not be able to book slot in  8 o'clock  and the user could not book any slots befor an hour before 8 o'clock  slot, so user will see 5 slots disabled: 7 , 7.15, 7 .30, 7.45  and 8
 
 
-#### 8- 12 AM is midnight 
-#### 9-12PM is midday 
+#### 8-PS. 12 AM is midnight 
+#### 9-PS. 12 PM is midday 
 
 #### 10-I use MailTrap for expert registeration and for user confiming of his booking 
 #### 11-there is testing DB file :booking_from_expert.sql
