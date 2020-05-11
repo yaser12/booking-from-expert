@@ -364,8 +364,7 @@ var from_slot;
 //alert(hours+Am_or_PM+ " + "+ numberHourstoAdd);
             if(hours==12)
             {
-                if(Am_or_PM=='AM')Am_or_PM='PM';
-                else if(Am_or_PM=='PM')Am_or_PM='AM';
+                    
 
 
                 return [numberHourstoAdd,Am_or_PM];
