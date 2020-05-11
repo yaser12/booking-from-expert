@@ -38,8 +38,8 @@
                                     if(sumhours==12)
                                     {
 
-                                       // if(Am_or_PM=='AM')Am_or_PM='PM';
-                                        //else  if(Am_or_PM=='PM')Am_or_PM='AM';
+                                         if(Am_or_PM=='AM')Am_or_PM='PM';
+                                        else  if(Am_or_PM=='PM')Am_or_PM='AM';
                                         return [sumhours,Am_or_PM];
                                     }
                                      if(sumhours>12) {
