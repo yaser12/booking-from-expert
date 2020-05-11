@@ -10,7 +10,7 @@
 #### 5- to help  users to choose an appointment to start from: The beginning of the appointment has been made so that it begins every quarter of an hour along the working hours
 
 #### 6- if slots in same day will be disabled(user can show it but you can not select it)
-#### 7-if user select duration 1Hour: and slot for example in 8 o'clock in same day  is booked up, then user will not be able to book slot in  8 o'clock  and user coud not book any slot befor an hour before it, so user will see 4 slots booked up: 7 , 7.15, 7 .30, 7.45  and 8
+#### 7-if user select duration 1Hour: and there is a slot for example in 8 o'clock in same day that is already booked up from another user, then the user will not be able to book slot in  8 o'clock  and the user could not book any slots befor an hour before 8 o'clock  slot, so user will see 5 slots disabled: 7 , 7.15, 7 .30, 7.45  and 8
 
 
 #### 8- 12 AM is midnight 
